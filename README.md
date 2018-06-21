@@ -1,5 +1,5 @@
 # Steam-Summer-Sales-2018-Clicking-Script
-A simple clicking script for the SALIENS: FIGHT THE DULDRUMZ! mini-game
+A simple clicking script (or bot) for the SALIENS: FIGHT THE DULDRUMZ! mini-game
 ## Dependencies and Requirements
 **This script works for Windows only.**<br/>
 **This script works for 1920x1080 screen resolution.**<br/>
