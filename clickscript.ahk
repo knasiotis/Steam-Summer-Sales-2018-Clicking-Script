@@ -12,6 +12,7 @@ Loop
 	Loop{
 	SendInput {Numpad1}
 	SendInput {Numpad2}
+	SendInput {Numpad3}
 	MouseClick, left, x, y
 	y:=y+5
 	if (y>820){
