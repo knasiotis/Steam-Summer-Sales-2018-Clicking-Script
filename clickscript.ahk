@@ -2,7 +2,7 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#MaxThreadsPerHotkey 5
+#MaxThreadsPerHotkey 3
 x:=630
 y:=355
 F1::pause, toggle
@@ -11,6 +11,7 @@ Loop
 {
 	Loop{
 	SendInput {Numpad1}
+	SendInput {Numpad2}
 	MouseClick, left, x, y
 	y:=y+5
 	if (y>820){
